@@ -1,0 +1,192 @@
+      @font-face {
+          font-family: 'Noto_Sans_TC';
+          src: url('Noto_Sans_TC/NotoSansTC-Regular.otf');
+      }
+
+      body {
+          /* 網頁基本設定 */
+          background-image: linear-gradient(to top, #505285 0%, #585e92 12%, #65689f 25%, #7474b0 37%, #7e7ebb 50%, #8389c7 62%, #9795d4 75%, #a2a1dc 87%, #b5aee4 100%);
+          font-family: 'Noto Sans TC';
+          color: white;
+          font-size: 16px;
+      }
+
+      #BG {
+          background-image: url('../image/BG.png');
+          background-attachment: fixed;
+          background-size: 30%;
+      }
+
+      .MiddleWeb {
+          /* 網頁中間內容div（包含Title) */
+          padding-top: 30px;
+          text-align: center;
+          margin: auto;
+          width: 1000px;
+      }
+
+      #Title_Pic {
+          /* 標題圖 */
+          padding: 20px 0px;
+          height: 300px;
+      }
+
+      #City_Pic {
+          /* 上方城市圖 */
+          display: block;
+          width: 1000px;
+          /* vertical-align: top; */
+      }
+
+      .SurveyPage {
+          /* title以下的紫色div */
+          padding-top: 60px;
+          padding-bottom: 0px;
+          background: linear-gradient(rgb(31, 27, 70, 1), rgba(31, 27, 70, 0.8));
+          box-shadow: 5px 5px 0px rgb(119, 190, 209), -5px 5px 0px rgb(210, 59, 116);
+      }
+
+      .GameTable {
+          /* 中間遊戲區塊 */
+          /* 水平排列不換行 */
+          display: inline-block;
+      }
+
+      .video {
+          /* 影片 */
+          width: 250px;
+          box-shadow: 0px 0px 10px#000000;
+          border: 3Px #ffffff solid;
+      }
+
+      figcaption+figcaption {
+          /* 遊戲第二行文字(製作年份) */
+          color: #77bed1;
+          font-size: 14px;
+          font-weight: 600;
+      }
+
+      .hrSection {
+          /* 分頁hr */
+          padding: 50px;
+          width: 820px;
+          margin: auto;
+      }
+
+      hr {
+          border: 1px dashed #77bed1;
+      }
+
+      #Start_Pic {
+          /* 開始填寫問卷圖 */
+          padding: 20px;
+          height: 40px;
+      }
+
+      .SurveyTitle {
+          /* 開始填寫問卷圖的div */
+          padding-bottom: 20px;
+      }
+
+      .SurveyContent {
+          /* 問卷內容div */
+          padding-top: 20px;
+          margin: auto;
+          text-align: left;
+          width: 650px;
+      }
+
+      td {
+          padding: 12px;
+      }
+
+      .Arrow {
+          /* 選單前的小箭頭 */
+          width: 20px;
+          vertical-align: middle;
+          padding-right: 5px;
+      }
+
+      .Option {
+          /* 單選/多選選單div */
+          padding-left: 30px;
+      }
+
+      span {
+          /* 可複選文字設定 */
+          font-size: 14px;
+          /* color: rgba(31, 27, 70); */
+          border: 2px #54a9c0 solid;
+          background-color: #54a9c0;
+          border-radius: 5px;
+      }
+
+      #WriteText {
+          /* 填字區域 */
+          resize: none;
+      }
+
+      #Submit {
+          /* 送出按鈕區塊 */
+          padding: 35px;
+      }
+
+      #Thank_Pic {
+          /* 底部感謝圖 */
+          padding-top: 70px;
+          width: 500px;
+      }
+
+      #Copyright {
+          /* 底部智慧財產權文字div */
+          font-size: 10px;
+          padding-top: 20px;
+          padding-bottom: 10px;
+          vertical-align: middle;
+          text-align: center;
+      }
+
+      input[type="radio"], [type="checkbox"], #gender, #age {
+          /* 按鈕設定 */
+          cursor: pointer;
+      }
+
+      #gender, #age, #WriteText {
+          /* 按鈕設定 */
+          cursor: pointer;
+          border-radius: 4px;
+          border: 0px;
+          padding: 5px;
+          font-size: 14px;
+          font-family: 'Noto Sans TC';
+          color: rgb(58, 58, 58);
+      }
+
+      input[type="text"] {
+          /* 姓名按鈕設定 */
+          border-top: none;
+          border-left: none;
+          border-right: none;
+          border-bottom: 1px rgb(255, 255, 255) solid;
+          background-color: transparent;
+          color: white;
+          zoom: 1;
+          font-size: 16px;
+          font-family: 'Noto Sans TC';
+      }
+
+      #SubmitButton {
+          /* 送出按鈕設定 */
+          font-size: 16px;
+          cursor: pointer;
+          border-radius: 5px;
+          font-family: 'Noto Sans TC';
+          border: 0px;
+          padding: 5px 30px;
+          background-color: #54a9c0;
+          color: white;
+      }
+
+      #SubmitButton:hover {
+          background-color: rgb(210, 59, 116);
+      }

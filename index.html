@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>&lt;懷舊小遊戲問卷&gt;</title>
+
+    <link rel="stylesheet" href="css/css.css">
+    <link rel="Shortcut Icon" type="image/x-icon" href="image/ICON.svg" />
+
+
+</head>
+
+<body>
+
+    <!-- 背景專用 -->
+    <div id="BG">
+        <!-- 中間網頁內容(不包含左右背景) -->
+        <div class="MiddleWeb">
+
+            <!-- LOGO -->
+            <div>
+                <img src="image/Title.png" alt="" id="Title_Pic">
+            </div>
+
+            <!-- 上方城市圖 -->
+            <div>
+                <img src="image/Top_Image.png" alt="" id="City_Pic">
+            </div>
+
+            <!-- TITLE以下紫色區塊 -->
+            <div class="SurveyPage">
+
+                <!-- 遊戲畫面區塊 -->
+                <table class="GameTable">
+
+                    <tr>
+                        <td>
+                            <img src="image/P_日本釣魚.gif" alt="" class="video">
+                            <figcaption>&lt;日本釣魚遊戲&gt;</figcaption>
+                            <figcaption>1997</figcaption>
+                        </td>
+                        <td>
+                            <img src="image/P_幸運女神打蟑螂.gif" alt="" class="video">
+                            <figcaption>&lt;幸運女神打蟑螂&gt;</figcaption>
+                            <figcaption>1997</figcaption>
+                        </td>
+                        <td> <img src="image/P_小朋友齊打交.gif" alt="" class="video">
+                            <figcaption>&lt;小朋友齊打交&gt;</figcaption>
+                            <figcaption>1995</figcaption>
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td>
+                            <img src="image/P_皮卡丘打排球.gif" alt="" class="video">
+                            <figcaption>&lt;皮卡丘打排球&gt;</figcaption>
+                            <figcaption>1997</figcaption>
+                        </td>
+                        <td>
+                            <img src="image/P_小朋友下樓梯.gif" alt="" class="video">
+                            <figcaption>&lt;小朋友下樓梯&gt;</figcaption>
+                            <figcaption>1996</figcaption>
+                        </td>
+                        <td> <img src="image/P_破壞螢幕.gif" alt="" class="video">
+                            <figcaption>&lt;破壞螢幕&gt;</figcaption>
+                            <figcaption>不明</figcaption>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <img src="image/P_愛理做蛋糕.gif" alt="" class="video">
+                            <figcaption>&lt;愛理做蛋糕&gt;</figcaption>
+                            <figcaption>2003</figcaption>
+                        </td>
+                        <td>
+                            <img src="image/P_打雪仗.gif" alt="" class="video">
+                            <figcaption>&lt;打雪仗&gt;</figcaption>
+                            <figcaption>1998</figcaption>
+                        </td>
+                        <td> <img src="image/P_燒肉亭.gif" alt="" class="video">
+                            <figcaption>&lt;燒肉亭&gt;</figcaption>
+                            <figcaption>1999</figcaption>
+                        </td>
+                    </tr>
+
+                </table>
+                <!-- 遊戲區塊結束 -->
+
+                <div class="hrSection">
+                    <hr>
+                </div>
+
+
+                <!-- 分頁區塊 -->
+                <div class="SurveyTitle">
+                    <img src="image/Start.png" alt="" id="Start_Pic">
+                </div>
+
+
+                <!-- 問卷區塊 -->
+                <div>
+
+                    <form>
+
+                        <!-- 問卷區塊(不包含送出) -->
+                        <div class="SurveyContent">
+
+                            <label for="userName"> <img src="image/Arrow.png" alt=""
+                                    class="Arrow">&nbsp&nbsp請問如何稱呼：</label>
+                            <input type="text" id="userName">
+
+                            <br><br>
+                            <label for="gender"><img src="image/Arrow.png" alt="" class="Arrow">&nbsp&nbsp你的性別：</label>
+                            <select name="" id="gender">
+                                <option value="男">我是男生唷</option>
+                                <option value="女">我是女生唷</option>
+                                <option value="無">無</option>
+
+                            </select>
+
+
+                            <br><br>
+                            <label for="age"><img src="image/Arrow.png" alt="" class="Arrow">&nbsp&nbsp你的年齡：</label>
+                            <select name="" id="age">
+                                <option value="20歲以下">20歲以下</option>
+                                <option value="21-30">21-30</option>
+                                <option value="31-40">31-40</option>
+                                <option value="41-50">41-50</option>
+                                <option value="51-60">51-60</option>
+                                <option value="60歲以上">60歲以上</option>
+                            </select>
+
+                            <br><br><br> <img src="image/Arrow.png" alt="" class="Arrow">&nbsp&nbsp通常一天都花多久的時間在玩遊戲上？
+
+                            <div class="Option">
+                                <input type="radio" id="zeroHour" name="hour">
+                                <label for="zeroHour">我才不玩遊戲&nbsp&nbsp</label>
+
+
+                                <input type="radio" id="oneHour" name="hour">
+                                <label for="oneHour">1-3小時&nbsp&nbsp</label>
+
+
+                                <input type="radio" id="fourHour" name="hour">
+                                <label for="fourHour">4-6小時&nbsp&nbsp</label>
+
+
+                                <input type="radio" id="eightHour" name="hour">
+                                <label for="eightHour">8-10小時&nbsp&nbsp</label>
+
+
+                                <input type="radio" id="elevenHour" name="hour">
+                                <label for="elevenHour">10小時以上&nbsp&nbsp</label>
+
+                                <br>
+                                <input type="radio" id="everyHour" name="hour">
+                                <label for="everyHour">我除了吃飯睡覺就是玩遊戲&nbsp&nbsp</label>
+
+                            </div>
+
+                            <br><br> <img src="image/Arrow.png" alt="" class="Arrow">&nbsp&nbsp上方區塊的9個懷舊遊戲中，曾經玩過哪些？&nbsp<span>&nbsp可複選&nbsp</span>
+
+                            <div class="Option">
+
+                                <input type="checkbox" id="G_Fishing" name="Game">
+                                <label for="G_Fishing">&lt;日本釣魚遊戲&gt;&nbsp&nbsp</label>
+
+
+                                <input type="checkbox" id="G_Cock" name="Game">
+                                <label for="G_Cock">&lt;幸運女神打蟑螂&gt;&nbsp&nbsp</label>
+
+
+                                <input type="checkbox" id="G_Child" name="Game">
+                                <label for="G_Child">&lt;小朋友齊打交&gt;&nbsp&nbsp</label>
+
+
+                                <input type="checkbox" id="G_Pikachu" name="Game">
+                                <label for="G_Pikachu">&lt;皮卡丘打排球&gt;&nbsp&nbsp</label>
+
+                                <br>
+                                <input type="checkbox" id="G_Floor" name="Game">
+                                <label for="G_Floor">&lt;小朋友下樓梯&gt;&nbsp&nbsp</label>
+
+
+                                <input type="checkbox" id="G_Screen" name="Game">
+                                <label for="G_Screen">&lt;破壞螢幕&gt;&nbsp&nbsp</label>
+
+
+                                <input type="checkbox" id="G_Cake" name="Game">
+                                <label for="G_Cake">&lt;愛理做蛋糕&gt;&nbsp&nbsp</label>
+
+
+                                <input type="checkbox" id="G_Snow" name="Game">
+                                <label for="G_Snow">&lt;打雪仗&gt;&nbsp&nbsp</label>
+
+
+                                <input type="checkbox" id="G_Food" name="Game">
+                                <label for="G_Food">&lt;燒肉亭&gt;&nbsp&nbsp</label>
+
+                            </div>
+                            <br><br> <img src="image/Arrow.png" alt="" class="Arrow">&nbsp;&nbsp;請問是否有哪個遊戲至今還有在玩？&nbsp<span>&nbsp可複選&nbsp</span>
+
+                            <div class="Option">
+
+                                <input type="checkbox" id="E_Fishing" name="Game">
+                                <label for="E_Fishing">&lt;日本釣魚遊戲&gt;&nbsp&nbsp</label>
+
+
+                                <input type="checkbox" id="E_Cock" name="Game">
+                                <label for="E_Cock">&lt;幸運女神打蟑螂&gt;&nbsp&nbsp</label>
+
+
+                                <input type="checkbox" id="E_Child" name="Game">
+                                <label for="E_Child">&lt;小朋友齊打交&gt;&nbsp&nbsp</label>
+
+
+                                <input type="checkbox" id="E_Pikachu" name="Game">
+                                <label for="E_Pikachu">&lt;皮卡丘打排球&gt;&nbsp&nbsp</label>
+
+
+                                <br>
+                                <input type="checkbox" id="E_Floor" name="Game">
+                                <label for="E_Floor">&lt;小朋友下樓梯&gt;&nbsp&nbsp</label>
+
+
+                                <input type="checkbox" id="E_Screen" name="Game">
+                                <label for="E_Screen">&lt;破壞螢幕&gt;&nbsp&nbsp</label>
+
+
+                                <input type="checkbox" id="E_Cake" name="Game">
+                                <label for="E_Cake">&lt;愛理做蛋糕&gt;&nbsp&nbsp</label>
+
+
+                                <input type="checkbox" id="E_Snow" name="Game">
+                                <label for="E_Snow">&lt;打雪仗&gt;&nbsp&nbsp</label>
+
+
+                                <input type="checkbox" id="E_Food" name="Game">
+                                <label for="E_Food">&lt;燒肉亭&gt;&nbsp&nbsp</label>
+                            </div>
+
+                            <br><br> <img src="image/Arrow.png" alt="" class="Arrow">&nbsp;&nbsp;請問有沒有其它推薦的懷舊小遊戲呢？
+                            <br>
+
+                            <div class="Option">
+                                <textarea name="message" rows="5" cols="75" id="WriteText">請輸入小遊戲名稱</textarea>
+                                <label for="message"></label>
+                            </div>
+
+                        </div>
+                        <!-- 問卷區塊（不包含送出)結束 -->
+
+                        <div id="Submit">
+                            <button type="button" onclick="alert('問卷已送出，感謝填寫！')" id="SubmitButton">提交問卷！</button>
+                        </div>
+
+                    </form>
+
+
+                </div>
+                <!-- 問卷區塊結束 -->
+
+
+                <div>
+                    <img src="image/Thank.png" alt="" id="Thank_Pic">
+                </div>
+
+            </div>
+            <!-- Title以下紫色區塊結束 -->
+
+            <div id="Copyright">
+                <b>
+                    Copyright © 2020 Allison Chen All rights reserved.
+                </b>
+            </div>
+        </div>
+        <!-- 中間網頁內容結束 -->
+
+    </div>
+    <!-- 背景專用 -->
+
+</body>
+
+</html>
